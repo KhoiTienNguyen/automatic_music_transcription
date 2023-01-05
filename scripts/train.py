@@ -84,7 +84,6 @@ def main():
 
     ###### MODEL
 
-    # input with shape of height=32 and width=128 
     inputs = Input(shape=(128,None,1))
     # convolution layer with kernel size (3,3)
     conv_1 = Conv2D(64, (3,3), activation = 'relu', padding='same')(inputs)
